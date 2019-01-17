@@ -8,6 +8,7 @@ $(document).ready(function() {
     var nounInput = $("input#noun").val();
 
     $(".person1").text(person1Input);
+    debugger;
     $(".person2").text(person2Input);
     $(".animal").text(animalInput);
     $(".exclamation").text(exclamationInput);
@@ -16,6 +17,6 @@ $(document).ready(function() {
 
     $("#story").show();
 
-      event.preventDefault();
+    event.preventDefault();
   });
 });
